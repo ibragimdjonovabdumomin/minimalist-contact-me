@@ -1,0 +1,34 @@
+.header {
+    padding: 64px 0 9px 0;
+
+    .header_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;
+        gap: 42px;
+    }
+
+    .link {
+        color: #33323D;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .link-2 {
+        color: #5FB4A2;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
