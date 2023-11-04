@@ -1,10 +1,11 @@
 .header {
-    padding: 64px 0 9px 0;
 
     .header_box {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 64px 0 0 0;
+        margin-bottom: 94px;
     }
 
     .list {
@@ -30,5 +31,13 @@
         line-height: normal;
         letter-spacing: 2px;
         text-transform: uppercase;
+    }
+
+    .line {
+        width: 1110px;
+        height: 1px;
+        opacity: 0.15;
+        background: #33323D;
+        margin-bottom: 48px;
     }
 }

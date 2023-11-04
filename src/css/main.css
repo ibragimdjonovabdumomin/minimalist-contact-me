@@ -36,13 +36,12 @@ button {
   border: none;
 }
 
-.header {
-  padding: 64px 0 9px 0;
-}
 .header .header_box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 64px 0 0 0;
+  margin-bottom: 94px;
 }
 .header .list {
   display: flex;
@@ -65,4 +64,38 @@ button {
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.header .line {
+  width: 1110px;
+  height: 1px;
+  opacity: 0.15;
+  background: #33323D;
+  margin-bottom: 48px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .title {
+  width: 350px;
+  color: #33323D;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.357px;
+}
+.hero .text {
+  width: 635px;
+  color: #33323D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+.hero .hero_img {
+  margin-bottom: 48px;
 }/*# sourceMappingURL=main.css.map */
